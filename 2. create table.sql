@@ -24,8 +24,8 @@ no_hp_pembeli varchar(15)
 
 create table troli(
 id_troli varchar(5) not null primary key,
-total_harga int,
-total_kuantitas int
+total_kuantitas int,
+total_harga int
 );
 
 create table faktur_pesanan(
